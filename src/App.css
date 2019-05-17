@@ -12,10 +12,13 @@ body {
   color: var(--mainDark) !important;
 }
 
-.text-title{
+.text-title-big{
   font-family: 'Meddon', cursive;
 }
 
+.text-title-reg{
+  font-family: 'Julius Sans One', sans-serif;
+}
 .text-blue{
   color: var(--mainBlue);
 }
