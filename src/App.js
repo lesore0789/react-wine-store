@@ -13,7 +13,7 @@ import Default from './components/Default';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>'
+      <React.Fragment>
         <Navbar />
         <Switch>
           <Route exact path="/" component={ProductList} />
