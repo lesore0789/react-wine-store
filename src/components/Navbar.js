@@ -12,8 +12,13 @@ export default class Navbar extends Component {
                 <img src={logo} alt="store" className="navbar-brand" />
                 </Link>
                 <ul className="navbar-nav align-items-center">
-                    <li className="nav-item ml-4">
+                    <li className="nav-item ml-1">
                         <Link to="/" className="nav-link">
+                        <p className="text-title-big mt-3">Vegan Vino</p>
+                        </Link>
+                    </li>
+                    <li className="nav-item ml-4">
+                        <Link to="/" className="nav-link linko">
                             Products
                         </Link>
                     </li>
@@ -36,5 +41,8 @@ background: var(--mainBlue) !important;
 .nav-link{
     color: var(--mainWhite)!important;
     font-size: 1.3rem;
+}
+.linko{
+    font-size: 1.1rem;
 }
 `
