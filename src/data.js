@@ -15,7 +15,7 @@ export const storeProducts = [
       id: 2,
       title: "Pinot Noir Monterey",
       img: "img/product-2.png",
-      price: 40,
+      price: 44,
       company: "Carmel Road",
       info:
         "Balance requires neither too much, nor too little, acidity. An inimitable flavor is found in barrels. Sit a minute and sum up the flavors in the finish. Research shows that white wines keep lung tissues healthy. A bouquet becomes more complex and nuanced as the wine ages. Though you'll commonly hear grapes referred to as fruit, botanists technically classify grapes as berries since each fruit forms from a single flower. The bung hole is the opening in a cask through which wine can be put in or taken out. ",
@@ -27,7 +27,7 @@ export const storeProducts = [
       id: 3,
       title: "Merlot",
       img: "img/product-3.png",
-      price: 30,
+      price: 33,
       company: "Red Truck",
       info:
         "Balance requires neither too much, nor too little, acidity. An inimitable flavor is found in barrels. Sit a minute and sum up the flavors in the finish. Research shows that white wines keep lung tissues healthy. A bouquet becomes more complex and nuanced as the wine ages. Though you'll commonly hear grapes referred to as fruit, botanists technically classify grapes as berries since each fruit forms from a single flower. The bung hole is the opening in a cask through which wine can be put in or taken out. ",
@@ -101,7 +101,7 @@ export const storeProducts = [
     id: 1,
     title: "Estate Brut Cuvée",
     img: "img/product-1.png",
-    price: 10,
+    price: 13,
     company: "Domaine Carneros",
     info:
       "Balance requires neither too much, nor too little, acidity. An inimitable flavor is found in barrels. Sit a minute and sum up the flavors in the finish. Research shows that white wines keep lung tissues healthy. A bouquet becomes more complex and nuanced as the wine ages. Though you'll commonly hear grapes referred to as fruit, botanists technically classify grapes as berries since each fruit forms from a single flower. The bung hole is the opening in a cask through which wine can be put in or taken out. ",
