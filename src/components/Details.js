@@ -37,7 +37,7 @@ export default class Details extends Component {
                         <p className="font-weight-bold mt-3 mb-0">Some Info About This Bottle:</p>
                         <p className="text-muted lead">{info}</p>
                         <div>
-                            <Link to="/">
+                            <Link to="/products">
                             <ButtonContainer>Back to Products</ButtonContainer>
                             </Link>
                             <ButtonContainer cart disabled={inCart ? true : false} onClick={()=>{
