@@ -54,3 +54,36 @@ body {
 i.far.fa-envelope{
   font-size: 5rem;
 }
+
+.home{
+  background-image: url('./img/vino1.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.377);
+  height: 90vh;
+}
+.about{
+  background-image: url('./img/vino3.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.377);
+  height: 85vh;
+}
+.product{
+  background-image: url('./img/vino4.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  
+}
