@@ -50,3 +50,7 @@ body {
 .details-img{
   max-height: 500px;
 }
+
+i.far.fa-envelope{
+  font-size: 5rem;
+}
