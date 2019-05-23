@@ -1,54 +1,41 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../logo.svg';
-import styled from 'styled-components';
-import {ButtonContainer} from './Button';
 
 export default class Navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-sm bg-primary navbar-dark"> 
+            <nav className="navbar navbar-expand-sm navbar-dark bg-light">
                 <Link to='/'>
-                <img src={logo} alt="store" className="navbar-brand" />
+                <img src={logo} alt="store" className="navbar-brand mr-2" /><span className="navbar-brand text-title-big mt-3 ml-1 br1">Vegan Vino</span>
                 </Link>
-                <ul className="navbar-nav align-items-center">
-                    <li className="nav-item ml-1">
-                        <Link to="/" className="nav-link">
-                        <p className="text-title-big mt-3">Vegan Vino</p>
-                        </Link>
-                    </li>
-                    <li className="nav-item ml-4">
+                    <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
                         <Link to="/about" className="nav-link linko">
                             About Us
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item pr-3">
                         <Link to="/products" className="nav-link linko">
                             Products
                         </Link>
                     </li>
-                </ul>
-                <Link to='/cart' className="ml-auto">
-                <button type="button" class="btn btn-outline-light">
-                    <span className="mr-2">
-                        <i className="fas fa-cart-plus" />                        
-                    </span>
-                        My Cart
-                </button>
-                        
-                </Link>
-            </NavWrapper>
-        )
-    }
-}
-
-const NavWrapper = styled.nav`
-background: var(--mainBlue) !important;
-.nav-link{
-    color: var(--mainWhite)!important;
-    font-size: 1.3rem;
-}
-.linko{
-    font-size: 1.1rem;
-}
-`
+                    </ul>
+                    <Link to='/cart' >
+                        <button type="button" className="btn btn-outline-light carto1">
+                            <span className="mr-2">
+                                <i className="fas fa-cart-plus" />                        
+                            </span>
+                                My Cart
+                        </button>     
+                    </Link>
+                    <Link to='/cart' >
+                        <button type="button" className="btn btn-outline-light carto2">
+                            <span className="mr-2">
+                                <i className="fas fa-cart-plus" />                        
+                            </span>
+                                
+                        </button>     
+                    </Link>
+        </nav> )
+    }}

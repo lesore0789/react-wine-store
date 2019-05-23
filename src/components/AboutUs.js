@@ -12,7 +12,7 @@ export default class AboutUs extends Component {
                     <h3 className='text-title-reg pt-3 pl-3'>This is a mock up of a vegan wine company selling bottles online.</h3>
                     <h5 className='pt-3 pl-5'>
                         I invite you to visit the 
-                        <Link to='/products'> Products </Link>
+                        <Link to='/products'> <span className='prod'>Products</span> </Link>
                         page, put items in the cart, 
                     </h5>
                     <h5>and proceed to checkout and 'pay' via PayPal. </h5>

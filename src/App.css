@@ -79,3 +79,56 @@ i.far.fa-envelope{
   background-color: rgba(0, 0, 0, 0.377);
   height: 85vh;
 }
+
+nav.navbar{
+  background: var(--mainBlue) !important;
+}
+
+.happy{
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 50px;
+}
+
+button.btn.carto2{
+  display: none !important;
+}
+
+.nav-link.linko{
+  transition: 0.4s;
+}
+
+.nav-link.linko:hover{
+  letter-spacing: 1px;
+}
+
+span.prod{
+  color: var(--mainBlue);
+  transition: 0.4s;
+}
+
+span.prod:link, span.prod:hover{
+  letter-spacing: 1px !important;
+}
+
+@media screen and (max-width: 600px){
+  .happy{
+    font-size: 20px;
+  }
+
+  .vv{
+    font-size: 50px !important;
+  }
+  
+  button.btn.carto1{
+    display: none !important;
+  }
+
+  button.btn.carto2{
+    display: inline !important;
+    font-size: 15px;
+  }
+
+  .nav-link.linko{
+    font-size: 12px !important;
+  }
+}
