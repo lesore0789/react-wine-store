@@ -29,12 +29,13 @@ export default class Navbar extends Component {
                     </li>
                 </ul>
                 <Link to='/cart' className="ml-auto">
-                    <ButtonContainer>
-                        <span className="mr-2">
-                            <i className="fas fa-cart-plus" />                        
-                        </span>
-                        my cart
-                    </ButtonContainer>
+                <button type="button" class="btn btn-outline-light">
+                    <span className="mr-2">
+                        <i className="fas fa-cart-plus" />                        
+                    </span>
+                        My Cart
+                </button>
+                        
                 </Link>
             </NavWrapper>
         )

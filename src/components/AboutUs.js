@@ -13,8 +13,10 @@ export default class AboutUs extends Component {
                     <h5 className='pt-3 pl-5'>
                         I invite you to visit the 
                         <Link to='/products'> Products </Link>
-                        page, put items in the cart, and proceed to checkout and 'pay' via PayPal. The dummy email and password you can use is:
+                        page, put items in the cart, 
                     </h5>
+                    <h5>and proceed to checkout and 'pay' via PayPal. </h5>
+                    <h5>The dummy email and password you can use is:</h5>
                     <h5>Email: lesore0789-buyer@yahoo.com</h5>
                     <h5>Password: sandbox100</h5>
                   </div>

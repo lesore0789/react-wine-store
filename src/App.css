@@ -79,11 +79,3 @@ i.far.fa-envelope{
   background-color: rgba(0, 0, 0, 0.377);
   height: 85vh;
 }
-.product{
-  background-image: url('./img/vino4.jpg');
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
-
-  
-}
