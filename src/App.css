@@ -111,11 +111,11 @@ span.prod:link, span.prod:hover{
 }
 
 @media screen and (max-width: 600px){
-  .happy{
+  .happy, h3.mock{
     font-size: 20px;
   }
 
-  .vv{
+  .vv, h1.abt{
     font-size: 50px !important;
   }
   
@@ -130,5 +130,9 @@ span.prod:link, span.prod:hover{
 
   .nav-link.linko{
     font-size: 12px !important;
+  }
+
+  h5.invite{
+    font-size: 15px !important;
   }
 }

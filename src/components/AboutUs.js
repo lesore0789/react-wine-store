@@ -8,17 +8,23 @@ export default class AboutUs extends Component {
           <div className="container">
               <div className="row">
                   <div className="col-10 pl-5 ml-5">
-                    <h1 className='display-4 text-title-big pl-3'>About Us</h1>
-                    <h3 className='text-title-reg pt-3 pl-3'>This is a mock up of a vegan wine company selling bottles online.</h3>
-                    <h5 className='pt-3 pl-5'>
+                    <h1 className='display-4 text-title-big pl-3 abt'>About Us</h1>
+                    <h3 className='text-title-reg pt-3 pl-3 mock'>This is a mock up of a vegan wine company selling bottles online.</h3>
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-12 align-text-center justify-content-center">
+                    <h5 className='pt-3 pl-5 invite'>
                         I invite you to visit the 
                         <Link to='/products'> <span className='prod'>Products</span> </Link>
                         page, put items in the cart, 
-                    </h5>
-                    <h5>and proceed to checkout and 'pay' via PayPal. </h5>
-                    <h5>The dummy email and password you can use is:</h5>
-                    <h5>Email: lesore0789-buyer@yahoo.com</h5>
-                    <h5>Password: sandbox100</h5>
+                    and proceed to checkout and 'pay' via PayPal.
+                   The dummy email and password you can use is:
+                   <br />Email: lesore0789-buyer@yahoo.com 
+                   <br />Password: sandbox100</h5>
+
+                        </div>
+                      </div>
+                    </div>
                   </div>
               </div>
           </div>
