@@ -89,9 +89,6 @@ nav.navbar{
   border-radius: 50px;
 }
 
-button.btn.carto2{
-  display: none !important;
-}
 
 .nav-link.linko{
   transition: 0.4s;
@@ -119,18 +116,6 @@ span.prod:link, span.prod:hover{
     font-size: 50px !important;
   }
   
-  button.btn.carto1{
-    display: none !important;
-  }
-
-  button.btn.carto2{
-    display: inline !important;
-    font-size: 15px;
-  }
-
-  .nav-link.linko{
-    font-size: 12px !important;
-  }
 
   h5.invite{
     font-size: 15px !important;
