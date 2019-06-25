@@ -1,4 +1,4 @@
-:root{
+:root {
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
@@ -7,27 +7,27 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
-.text-title-big{
-  font-family: 'Meddon', cursive;
+.text-title-big {
+  font-family: "Meddon", cursive;
 }
 
-.text-title-reg{
-  font-family: 'Julius Sans One', sans-serif;
+.text-title-reg {
+  font-family: "Julius Sans One", sans-serif;
 }
-.text-blue{
+.text-blue {
   color: var(--mainBlue);
 }
 
-.text-bright{
+.text-bright {
   color: var(--lightBlue);
 }
 
-.btn-black{
+.btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
@@ -36,27 +36,27 @@ body {
   border: 0.1rem solid var(--mainDark) !important;
 }
 
-.btn-black:hover{
+.btn-black:hover {
   background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
 }
 
-.cart-icon{
+.cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
 
-.details-img{
+.details-img {
   max-height: 500px;
 }
 
-i.far.fa-envelope{
+i.far.fa-envelope {
   font-size: 5rem;
 }
 
-.home{
-  background-image: url('./img/vino1.jpeg');
+.home {
+  background-image: url("./img/vino1.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -64,11 +64,12 @@ i.far.fa-envelope{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: screen !important;
   height: 90vh;
 }
-.about{
-  background-image: url('./img/vino3.jpeg');
+.about {
+  background-image: url("./img/vino3.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -76,48 +77,45 @@ i.far.fa-envelope{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: screen !important;
   height: 85vh;
 }
 
-nav.navbar{
+nav.navbar {
   background: var(--mainBlue) !important;
 }
 
-.happy{
-  background-color: rgba(255,255,255,0.3);
-  border-radius: 50px;
-}
-
-
-.nav-link.linko{
+.nav-link.linko {
   transition: 0.4s;
 }
 
-.nav-link.linko:hover{
+.nav-link.linko:hover {
   letter-spacing: 1px;
 }
 
-span.prod{
+span.prod {
   color: var(--mainBlue);
   transition: 0.4s;
 }
 
-span.prod:link, span.prod:hover{
+span.prod:link,
+span.prod:hover {
   letter-spacing: 1px !important;
 }
 
-@media screen and (max-width: 600px){
-  .happy, h3.mock{
+@media screen and (max-width: 600px) {
+  .happy,
+  h3.mock {
     font-size: 20px;
   }
 
-  .vv, h1.abt{
+  .vv,
+  h1.abt {
     font-size: 50px !important;
   }
-  
 
-  h5.invite{
+  h5.invite {
     font-size: 15px !important;
   }
 }
